@@ -15,3 +15,46 @@ int main() {
   cout << "Hello World!";
   return 0;
 } 
+
+
+To insert a new line, you can use the \n character:
+
+Example
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World! \n";
+  cout << "I am learning C++";
+  return 0;
+}
+
+Tip: Two \n characters after each other will create a blank line:
+
+Example
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World! \n\n";
+  cout << "I am learning C++";
+  return 0;
+}
+
+
+Another way to insert a new line, is with the endl manipulator:
+
+Example
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!" << endl;
+  cout << "I am learning C++";
+  return 0;
+}
+
+Escape Sequence	Description
+\t	Creates a horizontal tab	
+\\	Inserts a backslash character (\)	
+\"	Inserts a double quote character
